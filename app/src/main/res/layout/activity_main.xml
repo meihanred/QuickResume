@@ -1,0 +1,269 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    tools:context=".MainActivity"
+    android:weightSum="1">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="fill_parent"
+        android:layout_height="51dp"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        tools:context=".MainActivity"
+        android:weightSum="1">
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Back"
+            android:id="@+id/btbacktolist"
+            android:layout_weight="0.50" />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Create"
+            android:id="@+id/btcreate"
+            android:layout_weight="0.50" />
+    </LinearLayout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="304dp"
+        android:layout_height="51dp"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        tools:context=".MainActivity"
+        android:weightSum="1">
+        <TextView
+            android:layout_width="153dp"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Name"
+            android:id="@+id/tname" />
+
+        <EditText
+            android:id="@+id/ename"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint=""
+            android:textAlignment="center"
+            android:inputType="textCapWords" />
+    </LinearLayout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="304dp"
+        android:layout_height="51dp"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        tools:context=".MainActivity"
+        android:weightSum="1">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Age"
+            android:id="@+id/tage"
+            android:layout_weight="0.51" />
+
+        <EditText
+            android:id="@+id/eage"
+            android:inputType="number"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:hint=""
+            android:textAlignment="center"
+            android:layout_weight="0.50" />
+    </LinearLayout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="304dp"
+        android:layout_height="51dp"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        tools:context=".MainActivity"
+        android:weightSum="1">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Objective   "
+            android:id="@+id/tco"
+            android:inputType="textMultiLine"
+            android:layout_weight="0.50" />
+
+        <EditText
+            android:id="@+id/eco"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+
+            android:hint=""
+            android:textAlignment="center"
+            android:layout_weight="0.50"
+             />
+    </LinearLayout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="304dp"
+        android:layout_height="51dp"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        tools:context=".MainActivity"
+        android:weightSum="1">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Degree"
+            android:id="@+id/tdegree"
+            android:layout_weight="0.50" />
+
+        <EditText
+            android:id="@+id/edegree"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:hint=""
+            android:textAlignment="center"
+            android:layout_weight="0.50"
+            android:inputType="textCapWords" />
+    </LinearLayout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="304dp"
+        android:layout_height="51dp"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        tools:context=".MainActivity"
+        android:weightSum="1">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Phone"
+            android:id="@+id/tphone"
+            android:layout_weight="0.50" />
+
+        <EditText
+            android:id="@+id/ephone"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:inputType="phone"
+            android:hint=""
+            android:textAlignment="center"
+            android:layout_weight="0.50"
+            android:phoneNumber="true" />
+    </LinearLayout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="304dp"
+        android:layout_height="51dp"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        tools:context=".MainActivity"
+        android:weightSum="1">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Email"
+            android:id="@+id/temail"
+            android:layout_weight="0.50" />
+
+        <EditText
+            android:id="@+id/eemail"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:hint=""
+            android:textAlignment="center"
+            android:layout_weight="0.50" />
+    </LinearLayout>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="304dp"
+        android:layout_height="51dp"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        tools:context=".MainActivity"
+        android:weightSum="1">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Style"
+            android:id="@+id/tstyle"
+            android:layout_weight="0.83" />
+        <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+        <RadioButton
+            android:layout_width="91dp"
+            android:layout_height="wrap_content"
+            android:text="Classic"
+            android:id="@+id/rstyle1"
+            android:checked="true"
+            android:onClick="onRadioButtonClicked"/>
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Modern"
+            android:id="@+id/rstyle2"
+            android:checked="false"
+            android:onClick="onRadioButtonClicked"/>
+        </RadioGroup>
+    </LinearLayout>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="304dp"
+        android:layout_height="51dp"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        tools:context=".MainActivity"
+        android:weightSum="1">
+
+
+        <Button
+            android:layout_width="161dp"
+            android:layout_height="wrap_content"
+            android:text="Experience"
+            android:id="@+id/btnext"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Education"
+            android:id="@+id/btedu" />
+
+    </LinearLayout>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="304dp"
+        android:layout_height="51dp"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        tools:context=".MainActivity"
+        android:weightSum="1">
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Preview"
+            android:id="@+id/btread" />
+
+    </LinearLayout>
+
+</LinearLayout>
+    </ScrollView>

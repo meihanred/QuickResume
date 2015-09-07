@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">QuickResume</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_experience">experience</string>
+    <string name="title_activity_resumelist">QuickResume</string>
+    <string-array name="menu">
+        <item>Delete</item>
+        <item>Send</item>
+    </string-array>
+    <string name="title_activity_education">education</string>
+</resources>
